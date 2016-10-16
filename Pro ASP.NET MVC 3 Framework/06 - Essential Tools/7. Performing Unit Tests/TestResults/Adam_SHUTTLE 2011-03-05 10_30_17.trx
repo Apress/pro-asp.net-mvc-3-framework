@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bd564bd9-b41b-4c73-b9bc-bf4a2c176e15" name="Adam@SHUTTLE 2011-03-05 10:30:17" runUser="Shuttle\Adam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="187aa8b9-72a2-45f1-8300-4b62a3d082ce">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Adam_SHUTTLE 2011-03-05 10_30_17">
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\06 - Essential Tools\7. Performing Unit Tests\ProductApp\bin\Debug\ProductApp.exe" />
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\Ninject 2.0 Library\Ninject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-03-05T10:30:17.9256289+00:00" queuing="2011-03-05T10:30:17.9796320+00:00" start="2011-03-05T10:30:17.9866324+00:00" finish="2011-03-05T10:30:18.2686485+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="No_Price_Less_Than_One_Dollar" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\7. performing unit tests\productapp.tests\bin\debug\productapp.tests.dll" id="20843828-4c0f-5169-1810-052ee3d85276">
+      <Execution id="2e3b6acc-e3da-49ac-a633-0d9b4607dc3e" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/7. Performing Unit Tests/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="No_Price_Less_Than_One_Dollar" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="20843828-4c0f-5169-1810-052ee3d85276" executionId="2e3b6acc-e3da-49ac-a633-0d9b4607dc3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2e3b6acc-e3da-49ac-a633-0d9b4607dc3e" testId="20843828-4c0f-5169-1810-052ee3d85276" testName="No_Price_Less_Than_One_Dollar" computerName="SHUTTLE" duration="00:00:00.0191139" startTime="2011-03-05T10:30:17.9926328+00:00" endTime="2011-03-05T10:30:18.2466473+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e3b6acc-e3da-49ac-a633-0d9b4607dc3e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

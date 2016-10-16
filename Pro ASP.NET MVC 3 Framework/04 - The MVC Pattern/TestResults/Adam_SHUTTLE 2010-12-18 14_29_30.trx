@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="12ba67ab-6d42-4358-838d-33c0b29c9365" name="Adam@SHUTTLE 2010-12-18 14:29:30" runUser="Shuttle\Adam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="216ed2ee-9da8-4a94-b409-d8be71b00b3e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Adam_SHUTTLE 2010-12-18 14_29_30">
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\04 - The MVC Pattern\TheMVCPattern\bin\TheMVCPattern.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-18T14:29:30.1468495+00:00" queuing="2010-12-18T14:29:31.7209395+00:00" start="2010-12-18T14:29:31.7949438+00:00" finish="2010-12-18T14:29:33.0560159+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanAddHigherBid" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\04 - the mvc pattern\themvcpattern.tests\bin\debug\themvcpattern.tests.dll" id="1b1873c4-faa5-767d-d67b-b500f0699c16">
+      <Execution id="49caf90e-ca29-4809-b0e5-f0a52197f042" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/04 - The MVC Pattern/TheMVCPattern.Tests/bin/Debug/TheMVCPattern.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TheMVCPattern.Tests.AdminControllerTest, TheMVCPattern.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanAddHigherBid" />
+    </UnitTest>
+    <UnitTest name="CanChangeLoginName" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\04 - the mvc pattern\themvcpattern.tests\bin\debug\themvcpattern.tests.dll" id="5948a1e2-6de1-5680-78b6-fb36fab5e4b0">
+      <Execution id="74ca30b7-3777-4e93-9471-214076af70ea" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/04 - The MVC Pattern/TheMVCPattern.Tests/bin/Debug/TheMVCPattern.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TheMVCPattern.Tests.AdminControllerTest, TheMVCPattern.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanChangeLoginName" />
+    </UnitTest>
+    <UnitTest name="CannotAddLowerBid" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\04 - the mvc pattern\themvcpattern.tests\bin\debug\themvcpattern.tests.dll" id="1878683f-86b5-7c14-3699-010ddd575f19">
+      <Execution id="3d0bb309-4f43-4cb4-a005-328a7cee59b2" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/04 - The MVC Pattern/TheMVCPattern.Tests/bin/Debug/TheMVCPattern.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TheMVCPattern.Tests.AdminControllerTest, TheMVCPattern.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CannotAddLowerBid" />
+    </UnitTest>
+    <UnitTest name="CanAddBid" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\04 - the mvc pattern\themvcpattern.tests\bin\debug\themvcpattern.tests.dll" id="c9fc8d02-7472-e24a-d35f-811a0d692b98">
+      <Execution id="7168f3d5-79e1-4bee-bef3-04c328b45ccb" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/04 - The MVC Pattern/TheMVCPattern.Tests/bin/Debug/TheMVCPattern.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TheMVCPattern.Tests.AdminControllerTest, TheMVCPattern.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanAddBid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1878683f-86b5-7c14-3699-010ddd575f19" executionId="3d0bb309-4f43-4cb4-a005-328a7cee59b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b1873c4-faa5-767d-d67b-b500f0699c16" executionId="49caf90e-ca29-4809-b0e5-f0a52197f042" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5948a1e2-6de1-5680-78b6-fb36fab5e4b0" executionId="74ca30b7-3777-4e93-9471-214076af70ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9fc8d02-7472-e24a-d35f-811a0d692b98" executionId="7168f3d5-79e1-4bee-bef3-04c328b45ccb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3d0bb309-4f43-4cb4-a005-328a7cee59b2" testId="1878683f-86b5-7c14-3699-010ddd575f19" testName="CannotAddLowerBid" computerName="SHUTTLE" duration="00:00:00.1567836" startTime="2010-12-18T14:29:31.8209453+00:00" endTime="2010-12-18T14:29:32.5349861+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d0bb309-4f43-4cb4-a005-328a7cee59b2">
+    </UnitTestResult>
+    <UnitTestResult executionId="49caf90e-ca29-4809-b0e5-f0a52197f042" testId="1b1873c4-faa5-767d-d67b-b500f0699c16" testName="CanAddHigherBid" computerName="SHUTTLE" duration="00:00:00.0026947" startTime="2010-12-18T14:29:32.5389863+00:00" endTime="2010-12-18T14:29:32.5569874+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49caf90e-ca29-4809-b0e5-f0a52197f042">
+    </UnitTestResult>
+    <UnitTestResult executionId="74ca30b7-3777-4e93-9471-214076af70ea" testId="5948a1e2-6de1-5680-78b6-fb36fab5e4b0" testName="CanChangeLoginName" computerName="SHUTTLE" duration="00:00:00.4241224" startTime="2010-12-18T14:29:32.5629877+00:00" endTime="2010-12-18T14:29:32.9960125+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74ca30b7-3777-4e93-9471-214076af70ea">
+    </UnitTestResult>
+    <UnitTestResult executionId="7168f3d5-79e1-4bee-bef3-04c328b45ccb" testId="c9fc8d02-7472-e24a-d35f-811a0d692b98" testName="CanAddBid" computerName="SHUTTLE" duration="00:00:00.0005586" startTime="2010-12-18T14:29:33.0010127+00:00" endTime="2010-12-18T14:29:33.0100133+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7168f3d5-79e1-4bee-bef3-04c328b45ccb">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="40d0283d-04a9-4843-8cd3-309856e1f9ec" name="Adam@SHUTTLE 2010-12-19 19:28:22" runUser="Shuttle\Adam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="187aa8b9-72a2-45f1-8300-4b62a3d082ce">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Adam_SHUTTLE 2010-12-19 19_28_22">
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\Moq 4.0 Library\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\Ninject 2.0 Library\Ninject.dll" />
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\06 - Essential Tools\8. Using Moq\ProductApp\bin\Debug\ProductApp.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-19T19:28:22.2078586+00:00" queuing="2010-12-19T19:28:22.2618617+00:00" start="2010-12-19T19:28:22.3638676+00:00" finish="2010-12-19T19:28:23.0129047+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="All_Prices_Are_Reduced" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="7f84dc69-e051-e299-4937-eec64916109b">
+      <Execution id="cd1d5176-d1e0-4e6f-a62a-1f29162f2e3b" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="All_Prices_Are_Reduced" />
+    </UnitTest>
+    <UnitTest name="Correct_Total_Reduction_Amount" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="06707c4c-c99e-0695-ce3a-bf0e53efaf2c">
+      <Execution id="d09f8dfe-4a40-4bce-b61d-a5285d0e29d1" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Correct_Total_Reduction_Amount" />
+    </UnitTest>
+    <UnitTest name="No_Price_Less_Than_One_Dollar" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="20843828-4c0f-5169-1810-052ee3d85276">
+      <Execution id="bb0221ab-44a5-4285-b9ff-f4acf598a289" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="No_Price_Less_Than_One_Dollar" />
+    </UnitTest>
+    <UnitTest name="Update_Method_Called_For_Each_Product" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="092a6096-84e7-686c-7825-c8df4f6c7e5b">
+      <Execution id="f3ffc3af-36f6-4285-bb50-c97a73657edd" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Update_Method_Called_For_Each_Product" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="06707c4c-c99e-0695-ce3a-bf0e53efaf2c" executionId="d09f8dfe-4a40-4bce-b61d-a5285d0e29d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="092a6096-84e7-686c-7825-c8df4f6c7e5b" executionId="f3ffc3af-36f6-4285-bb50-c97a73657edd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20843828-4c0f-5169-1810-052ee3d85276" executionId="bb0221ab-44a5-4285-b9ff-f4acf598a289" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f84dc69-e051-e299-4937-eec64916109b" executionId="cd1d5176-d1e0-4e6f-a62a-1f29162f2e3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d09f8dfe-4a40-4bce-b61d-a5285d0e29d1" testId="06707c4c-c99e-0695-ce3a-bf0e53efaf2c" testName="Correct_Total_Reduction_Amount" computerName="SHUTTLE" duration="00:00:00.2763920" startTime="2010-12-19T19:28:22.3678678+00:00" endTime="2010-12-19T19:28:22.8778970+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d09f8dfe-4a40-4bce-b61d-a5285d0e29d1">
+    </UnitTestResult>
+    <UnitTestResult executionId="f3ffc3af-36f6-4285-bb50-c97a73657edd" testId="092a6096-84e7-686c-7825-c8df4f6c7e5b" testName="Update_Method_Called_For_Each_Product" computerName="SHUTTLE" duration="00:00:00.0234412" startTime="2010-12-19T19:28:22.8808971+00:00" endTime="2010-12-19T19:28:22.9098988+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3ffc3af-36f6-4285-bb50-c97a73657edd">
+    </UnitTestResult>
+    <UnitTestResult executionId="bb0221ab-44a5-4285-b9ff-f4acf598a289" testId="20843828-4c0f-5169-1810-052ee3d85276" testName="No_Price_Less_Than_One_Dollar" computerName="SHUTTLE" duration="00:00:00.0028968" startTime="2010-12-19T19:28:22.9138990+00:00" endTime="2010-12-19T19:28:22.9228995+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb0221ab-44a5-4285-b9ff-f4acf598a289">
+    </UnitTestResult>
+    <UnitTestResult executionId="cd1d5176-d1e0-4e6f-a62a-1f29162f2e3b" testId="7f84dc69-e051-e299-4937-eec64916109b" testName="All_Prices_Are_Reduced" computerName="SHUTTLE" duration="00:00:00.0014885" startTime="2010-12-19T19:28:22.9258997+00:00" endTime="2010-12-19T19:28:22.9319000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd1d5176-d1e0-4e6f-a62a-1f29162f2e3b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

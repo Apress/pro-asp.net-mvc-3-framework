@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bfa957d1-ea1a-40d9-a069-a237dba505c7" name="Adam@SHUTTLE 2010-12-19 19:22:16" runUser="Shuttle\Adam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="187aa8b9-72a2-45f1-8300-4b62a3d082ce">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Adam_SHUTTLE 2010-12-19 19_22_16">
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\Moq 4.0 Library\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\Ninject 2.0 Library\Ninject.dll" />
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\06 - Essential Tools\8. Using Moq\ProductApp\bin\Debug\ProductApp.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-19T19:22:16.7239541+00:00" queuing="2010-12-19T19:22:16.7779572+00:00" start="2010-12-19T19:22:16.7859577+00:00" finish="2010-12-19T19:22:17.2179824+00:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="4" error="4" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="All_Prices_Are_Reduced" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="7f84dc69-e051-e299-4937-eec64916109b">
+      <Execution id="350a8401-d8d0-4961-8dac-c82245905fb5" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="All_Prices_Are_Reduced" />
+    </UnitTest>
+    <UnitTest name="Correct_Total_Reduction_Amount" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="06707c4c-c99e-0695-ce3a-bf0e53efaf2c">
+      <Execution id="9e5a63af-3857-492a-9a36-a7f1583e1400" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Correct_Total_Reduction_Amount" />
+    </UnitTest>
+    <UnitTest name="No_Price_Less_Than_One_Dollar" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="20843828-4c0f-5169-1810-052ee3d85276">
+      <Execution id="0d796438-d9ab-404d-aa96-7127a72a31a9" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="No_Price_Less_Than_One_Dollar" />
+    </UnitTest>
+    <UnitTest name="Update_Method_Called_For_Each_Product" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="092a6096-84e7-686c-7825-c8df4f6c7e5b">
+      <Execution id="30fe3c72-4d12-48b9-a120-fc8a3eaee8d2" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Update_Method_Called_For_Each_Product" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="06707c4c-c99e-0695-ce3a-bf0e53efaf2c" executionId="9e5a63af-3857-492a-9a36-a7f1583e1400" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="092a6096-84e7-686c-7825-c8df4f6c7e5b" executionId="30fe3c72-4d12-48b9-a120-fc8a3eaee8d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20843828-4c0f-5169-1810-052ee3d85276" executionId="0d796438-d9ab-404d-aa96-7127a72a31a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f84dc69-e051-e299-4937-eec64916109b" executionId="350a8401-d8d0-4961-8dac-c82245905fb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9e5a63af-3857-492a-9a36-a7f1583e1400" testId="06707c4c-c99e-0695-ce3a-bf0e53efaf2c" testName="Correct_Total_Reduction_Amount" computerName="SHUTTLE" startTime="2010-12-19T19:22:16.7909580+00:00" endTime="2010-12-19T19:22:17.1759800+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e5a63af-3857-492a-9a36-a7f1583e1400">
+      <Output>
+        <ErrorInfo>
+          <Message>Method ProductApp.Tests.MyPriceReducerTest.PreClassInitialize has wrong signature.  The method should have 1 parameters.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="30fe3c72-4d12-48b9-a120-fc8a3eaee8d2" testId="092a6096-84e7-686c-7825-c8df4f6c7e5b" testName="Update_Method_Called_For_Each_Product" computerName="SHUTTLE" startTime="2010-12-19T19:22:17.1789802+00:00" endTime="2010-12-19T19:22:17.1839805+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30fe3c72-4d12-48b9-a120-fc8a3eaee8d2">
+      <Output>
+        <ErrorInfo>
+          <Message>Method ProductApp.Tests.MyPriceReducerTest.PreClassInitialize has wrong signature.  The method should have 1 parameters.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0d796438-d9ab-404d-aa96-7127a72a31a9" testId="20843828-4c0f-5169-1810-052ee3d85276" testName="No_Price_Less_Than_One_Dollar" computerName="SHUTTLE" startTime="2010-12-19T19:22:17.1869806+00:00" endTime="2010-12-19T19:22:17.1919809+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d796438-d9ab-404d-aa96-7127a72a31a9">
+      <Output>
+        <ErrorInfo>
+          <Message>Method ProductApp.Tests.MyPriceReducerTest.PreClassInitialize has wrong signature.  The method should have 1 parameters.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="350a8401-d8d0-4961-8dac-c82245905fb5" testId="7f84dc69-e051-e299-4937-eec64916109b" testName="All_Prices_Are_Reduced" computerName="SHUTTLE" startTime="2010-12-19T19:22:17.1949811+00:00" endTime="2010-12-19T19:22:17.1999814+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="350a8401-d8d0-4961-8dac-c82245905fb5">
+      <Output>
+        <ErrorInfo>
+          <Message>Method ProductApp.Tests.MyPriceReducerTest.PreClassInitialize has wrong signature.  The method should have 1 parameters.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

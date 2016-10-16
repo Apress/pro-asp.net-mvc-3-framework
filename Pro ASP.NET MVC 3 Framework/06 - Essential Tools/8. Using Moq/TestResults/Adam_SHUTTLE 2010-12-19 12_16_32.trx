@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="26ff36ce-3484-4f8e-a7c2-36334db40fdb" name="Adam@SHUTTLE 2010-12-19 12:16:32" runUser="Shuttle\Adam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="187aa8b9-72a2-45f1-8300-4b62a3d082ce">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Adam_SHUTTLE 2010-12-19 12_16_32">
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\Moq 4.0 Library\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\Ninject 2.0 Library\Ninject.dll" />
+      <DeploymentItem filename="C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\06 - Essential Tools\8. Using Moq\ProductApp\bin\Debug\ProductApp.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-19T12:16:32.4468055+00:00" queuing="2010-12-19T12:16:32.4848077+00:00" start="2010-12-19T12:16:32.4918081+00:00" finish="2010-12-19T12:16:33.0888422+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="All_Prices_Are_Reduced" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="7f84dc69-e051-e299-4937-eec64916109b">
+      <Execution id="b1286fde-b4ab-4e1b-80b0-849a3d516278" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="All_Prices_Are_Reduced" />
+    </UnitTest>
+    <UnitTest name="Correct_Total_Reduction_Amount" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="06707c4c-c99e-0695-ce3a-bf0e53efaf2c">
+      <Execution id="ea2ead54-9d25-4aa4-a96b-508c9d7efd14" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Correct_Total_Reduction_Amount" />
+    </UnitTest>
+    <UnitTest name="No_Price_Less_Than_One_Dollar" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="20843828-4c0f-5169-1810-052ee3d85276">
+      <Execution id="8bcd1533-da54-4f6a-b9f9-0f2f5ea426b4" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="No_Price_Less_Than_One_Dollar" />
+    </UnitTest>
+    <UnitTest name="Update_Method_Called_For_Each_Product" storage="c:\users\adam\documents\books\pro mvc 3\repository\source code\06 - essential tools\8. using moq\productapp.tests\bin\debug\productapp.tests.dll" id="092a6096-84e7-686c-7825-c8df4f6c7e5b">
+      <Execution id="fe7d588f-9a30-4afb-868f-d754bdc1fb5e" />
+      <TestMethod codeBase="C:/Users/Adam/Documents/Books/Pro MVC 3/repository/Source Code/06 - Essential Tools/8. Using Moq/ProductApp.Tests/bin/Debug/ProductApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProductApp.Tests.MyPriceReducerTest, ProductApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Update_Method_Called_For_Each_Product" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="06707c4c-c99e-0695-ce3a-bf0e53efaf2c" executionId="ea2ead54-9d25-4aa4-a96b-508c9d7efd14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="092a6096-84e7-686c-7825-c8df4f6c7e5b" executionId="fe7d588f-9a30-4afb-868f-d754bdc1fb5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20843828-4c0f-5169-1810-052ee3d85276" executionId="8bcd1533-da54-4f6a-b9f9-0f2f5ea426b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f84dc69-e051-e299-4937-eec64916109b" executionId="b1286fde-b4ab-4e1b-80b0-849a3d516278" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ea2ead54-9d25-4aa4-a96b-508c9d7efd14" testId="06707c4c-c99e-0695-ce3a-bf0e53efaf2c" testName="Correct_Total_Reduction_Amount" computerName="SHUTTLE" duration="00:00:00.2322302" startTime="2010-12-19T12:16:32.4958083+00:00" endTime="2010-12-19T12:16:32.9698354+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea2ead54-9d25-4aa4-a96b-508c9d7efd14">
+    </UnitTestResult>
+    <UnitTestResult executionId="fe7d588f-9a30-4afb-868f-d754bdc1fb5e" testId="092a6096-84e7-686c-7825-c8df4f6c7e5b" testName="Update_Method_Called_For_Each_Product" computerName="SHUTTLE" duration="00:00:00.0663026" startTime="2010-12-19T12:16:32.9738356+00:00" endTime="2010-12-19T12:16:33.0448397+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe7d588f-9a30-4afb-868f-d754bdc1fb5e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ProductApp.Tests.MyPriceReducerTest.Update_Method_Called_For_Each_Product threw exception: 
+Moq.MockException: 
+Expected invocation on the mock exactly 4 times, but was 1 times: m =&gt; m.GetProducts()
+
+Configured setups:
+m =&gt; m.GetProducts(), Times.Once
+
+Performed invocations:
+IProductRepository.GetProducts()
+IProductRepository.UpdateProduct(ProductApp.Product)
+IProductRepository.UpdateProduct(ProductApp.Product)
+IProductRepository.UpdateProduct(ProductApp.Product)
+IProductRepository.UpdateProduct(ProductApp.Product)</Message>
+          <StackTrace>    at Moq.Mock.ThrowVerifyException(MethodCall expected, IEnumerable`1 setups, IEnumerable`1 actualCalls, Expression expression, Times times, Int32 callCount)
+   at Moq.Mock.VerifyCalls(Interceptor targetInterceptor, MethodCall expected, Expression expression, Times times)
+   at Moq.Mock.Verify[T,TResult](Mock mock, Expression`1 expression, Times times, String failMessage)
+   at Moq.Mock`1.Verify[TResult](Expression`1 expression, Times times)
+   at ProductApp.Tests.MyPriceReducerTest.Update_Method_Called_For_Each_Product() in C:\Users\Adam\Documents\Books\Pro MVC 3\repository\Source Code\06 - Essential Tools\8. Using Moq\ProductApp.Tests\MyPriceReducerTest.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8bcd1533-da54-4f6a-b9f9-0f2f5ea426b4" testId="20843828-4c0f-5169-1810-052ee3d85276" testName="No_Price_Less_Than_One_Dollar" computerName="SHUTTLE" duration="00:00:00.0021785" startTime="2010-12-19T12:16:33.0478399+00:00" endTime="2010-12-19T12:16:33.0548403+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bcd1533-da54-4f6a-b9f9-0f2f5ea426b4">
+    </UnitTestResult>
+    <UnitTestResult executionId="b1286fde-b4ab-4e1b-80b0-849a3d516278" testId="7f84dc69-e051-e299-4937-eec64916109b" testName="All_Prices_Are_Reduced" computerName="SHUTTLE" duration="00:00:00.0023714" startTime="2010-12-19T12:16:33.0638408+00:00" endTime="2010-12-19T12:16:33.0718412+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1286fde-b4ab-4e1b-80b0-849a3d516278">
+    </UnitTestResult>
+  </Results>
+</TestRun>
